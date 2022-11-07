@@ -21,7 +21,7 @@ namespace DoubleNestedLoops2
             //1-10
             //inside of inner loop,
             //
-            for (int i = 0; i <= 9; i++)
+            for (int i = 0; i <= 9; i++) // i = starts first, k would finish , then j loop and then i loop
             {
                 for (int j = 0; j <= 9; j++)
                 {
@@ -31,6 +31,8 @@ namespace DoubleNestedLoops2
                     }
                 }
             }
+
+            //(i = i + 1) = i++ same for j & k
 
             Console.WriteLine();
             Console.ReadKey(true);
